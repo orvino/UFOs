@@ -1,28 +1,22 @@
 # UFOs
-UFOs Module 11
-UFO Sightings with JavaScript
+## UFOs Sightings
 
-Purpose
-Explain the strengths and weaknesses of JavaScript "standard" and JavaScript version ES6+.
-Describe JavaScript syntax and ideal use cases.
-Build and deploy JavaScript functions, including built-in functions.
-Convert JavaScript functions to arrow functions.
-Build and deploy forEach (JavaScript for loop).
-Create, populate, and dynamically filter a table using JavaScript and HTML
-Overview
-The request from a client was to display a table organizing UFO data stored as a JavaScript array. The client wanted the ability to filter by multiple criteria creating a dynamic website. The table was created using JavaScript, while HTML/CSS and Bootstrap were used to modify the aesthetics of the website.
+## Overview
+Dana has requested a webpage with a dynamic table that provides more in-depth analysis of UFO sightings by allowing user to filer for multiple criteria, such as city, state, country, and shape.
 
-Results:
-Welcome to UFO Sightings!
-Pic 1
+## Results
+The Truth is Out There - is the title and header of the webpage where the user will land.  There is a brief four paragraphs from ufologists followed by our filter search and results columns.
+<img width="1576" alt="Screen Shot 2022-03-05 at 11 27 52 AM" src="https://user-images.githubusercontent.com/91889241/156893757-fd108098-4fd2-4e93-a914-9ebd53af6e97.png">
+
+The webpage defualts to all data shown from our source JSON files that are from the year 2010.
 
 How the filters appear when first landing on the page:
-Pic 2
+
 
 How the filters appear after being used:
 By typing in the suggested placeholder elements as the filters, the result returns 2 matches. Make sure to type everything in lower case letters and do not have spaces at the end of the text. Click off the input box or press enter to initiate the filter. To reset the filter criteria, click the UFO Sightings at the top left of the website.
 
-Pic 3
+
 
 Summary:
 Drawback:
@@ -33,4 +27,4 @@ The next addition to the filters should be to add a trim function to catch space
 
 A filter on a date range might be preferable than a singular date. Typing 1/2010 did not bring up all the dates from January as hoped. Perhaps, the UFO Sightings occur more frequently in a specific month instead of a specific day within the month. It is recommended to add in a filter function to include a date range as the filter to aid in the investigation of UFO Sightings.
 
-Pic 5
+
